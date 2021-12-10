@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pitch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <h1>Sheet's Good</h1>
+    <a href="index.html">Home</a>
+    <a href="company.html">About</a>
+    <a href="product.html">The Sheets</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+
+<div class="flex-container1">
+
+    <div class="rectangle">
+        <p>Our sheets are all a tri-blend mixture consisting mainly of cotton. The other materials are ethically sourced bamboo and the latest development of hemp threads. The mixture is a patented blend that allows an incredible level of softness while maintaining a very comfortable temperature level. Our blend is of superb quality as well as being ethically sourced from start to finish.</p>
+    </div>
+    </div>
+
+<section>
+    <div class="box">
+        <div class="imgbx">
+            <img src="Sheets1.jpg" alt="">
+            <h2>Click to Close</h2>
+            <div class="description">
+            <h4>Comfort King</h4>
+            <p1>Our highest quality pure cotton blend, perfect for any season</p1>
+        </div>
+    </div>
+    </div>
+    <div class="box">
+        <div class="imgbx">
+            <img src="Sheets2.jpg" alt="">
+            <h2>Click to Close</h2>
+            <div class="description">
+            <h5>Silky Smooth</h5>
+            <p2>The smoothiest, don't drink it, blend of silk on the market. Perfect for any skin care lovers</p2>
+        </div>
+    </div>
+    </div>
+    <div class="box">
+        <div class="imgbx">
+            <img src="Sheets3.jpg" alt="">
+            <h2>Click to Close</h2>
+            <div class="description">
+            <h4>Bamboo'd Up</h4>
+            <p1>We're not saying that these sheets can get you a significant other all on their own....but we're not saying they won't either...</p1>
+        </div>
+    </div>
+    </div>
+    <div class="box">
+        <div class="imgbx">
+            <img src="Sheets4.jpg" alt="">
+            <h2>Click to Close</h2>
+            <div class="description">
+                 <h4>Macro Fiber</h4>
+            <p1>It's like micro fiber but without the short man syndrome.....But no really, this is our most economical and affordable sheets on our site</p1>
+          </div>
+        </div>
+    </div>
+</section>
+<script>
+    let imgbx = document.querySelectorAll('.imgbx')
+    imgbx.forEach(popup => popup.addEventListener('click', () =>
+    {
+        popup.classList.toggle('active')
+    }))
+</script>
+
+<div class="footer">
+    <h2>Copyright</h2>
+    <h3>2021</h3>
+</div>
+
+
+</body>
+</html>
